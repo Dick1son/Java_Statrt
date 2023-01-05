@@ -109,7 +109,7 @@ public class program {
       }
       if (temp.isEmpty()) {
          System.out.println("По введенным критериям ничего не найдено!");
-         selectCriteria();
+         main(null);;
       } else {
          System.out.print("Вот что мы можем предложить: \n" + temp.toString() + "\b ");
       }
